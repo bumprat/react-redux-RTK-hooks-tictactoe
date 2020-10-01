@@ -1,0 +1,37 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.cell {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  line-height: 2rem;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid black;
+  user-select: none;
+  cursor: pointer;
+}
+
+.cell-circle {
+  color: red;
+}
+
+.cell-cross {
+  color: blue;
+}
+
+.cell-ok {
+  background-color: #afa;
+}
+
+.cell-error {
+  background-color: #faa;
+}
+
+.cell-win {
+  background-color: #0f0;
+}
